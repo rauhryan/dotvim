@@ -109,3 +109,6 @@ set wildignore+=*/tmp/cache/assets/*/sprockets/*,*/tmp/cache/assets/*/sass/*
 
 " Disable temp and backup files
 set wildignore+=*.swp,*~,._*
+
+" Ignore bower files and node files
+set wildignore+=*/node_modules/*,*/bower_components/*,*/public/*,*/dist/*,*/tmp/*,*/log/*
